@@ -6,5 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
     name: Confirm actions are enabled
-      - run: echo "GitHub Actions initialized for this fork."
+    - run: echo "GitHub Actions initialized for this fork."
